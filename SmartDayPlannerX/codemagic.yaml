@@ -1,14 +1,14 @@
 workflows:
   android-build:
-    name: Smart Task Build
+    name: Smart Day Planner X Build
     environment:
       java: 17
 
     scripts:
-      - name: Grant permission
+      - name: Fix Gradle permission
         script: chmod +x gradlew
 
-      - name: Build APK
+      - name: Build Debug APK
         script: ./gradlew assembleDebug
 
     artifacts:
