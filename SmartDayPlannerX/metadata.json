@@ -1,0 +1,7 @@
+{
+  "name": "Smart Day Planner X",
+  "description": "Offline smart personal planner and daily productivity scheduler running on intelligent automation, rule-engines, exact notifying systems, and gamified streaks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
